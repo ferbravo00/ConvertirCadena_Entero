@@ -5,6 +5,8 @@
  */
 package conversor;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Alumno Mañana
@@ -16,6 +18,11 @@ public class Conversor {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Scanner lectura = new Scanner (System.in);
+        int entero = Integer.parseInt(lectura.nextLine());
+        System.out.println("entero = " + entero);
+        String.valueOf(entero);
+        
     }
     
 }
